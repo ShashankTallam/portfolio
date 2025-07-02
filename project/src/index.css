@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Remove any blinking cursors */
+.blinking-cursor,
+.blinking-cursor::after,
+.typing::after,
+.typewriter::after {
+  content: none !important;
+  animation: none !important;
+  display: none !important;
+}
+/* Hide any blinking caret or typewriter cursor */
+*:focus {
+  outline: none !important;
+}
+
+.blinking-cursor,
+.blinking-cursor::after,
+.typing::after,
+.typewriter::after,
+::after {
+  animation: none !important;
+  content: none !important;
+  display: none !important;
+}
