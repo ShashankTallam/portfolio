@@ -1,12 +1,17 @@
+// Resume.tsx
 import React from 'react';
 
 const Resume: React.FC = () => {
   return (
-    <section id="resume" className="py-20 bg-gray-900">
-      <div className="max-w-4xl mx-auto px-6">
-        {/* Resume content removed as requested */}
-      </div>
-    </section>
+    <div className="w-full h-[400px] md:h-[600px]">
+      <embed
+        src="/resume.pdf"
+        type="application/pdf"
+        width="100%"
+        height="100%"
+        className="rounded-lg shadow-md"
+      />
+    </div>
   );
 };
 
