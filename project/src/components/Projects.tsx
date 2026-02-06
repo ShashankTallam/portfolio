@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
       technologies: ["Python", "OpenCV", "Deep Learning", "MediaPipe"],
       githubUrl: "https://github.com/ShashankTallam/BOLT_Final",
       Docker: "sac",
-      image: "/images/BOLT.jpg",
+      image: "/images/BOLT.png",
     },
     {
       title: "Video Transcript Summarizer",
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
       title:"Invoice OCR Web App",
       description:"Built OCR invoice ETL (Tesseract), interactive verification UI, plus auth & troubleshooting logs. Used Flask for backend, React for frontend, and Docker for deployment. Streamlined invoice processing with a user-friendly interface and robust error handling.",
       technologies: ["Python", "Flask", "Tesseract OCR,React,js"],
-      githubUrl:"https://github.com/ShashankTallam/Invoice_GST"
+      githubUrl:"https://github.com/ShashankTallam/Invoice_GST",
       image:"/images/ocr.jpg"
     }
   ];
