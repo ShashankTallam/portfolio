@@ -9,7 +9,7 @@ const Projects: React.FC = () => {
       description:
         "Built a real-time lip-reading system using Python, OpenCV, MediaPipe, and deep learning (CNN + RNN/CTC), with a Tkinter-based GUI. Applied NLP for grammar correction and enhanced readability. Integrated data augmentation and transfer learning for improved accuracy and future multilingual support.",
       technologies: ["Python", "OpenCV", "Deep Learning", "MediaPipe"],
-      githubUrl: "csd",
+      githubUrl: "https://github.com/ShashankTallam/BOLT_Final",
       Docker: "sac",
       image: "/images/BOLT.jpg",
     },
@@ -22,6 +22,13 @@ const Projects: React.FC = () => {
       Docker: "https://hub.docker.com/r/shashanktj/video-transcript-summarizer/tags",
       image: "/images/Video Transcript Summarizer.png",
     },
+    {
+      title:"Invoice OCR Web App",
+      description:"Built OCR invoice ETL (Tesseract), interactive verification UI, plus auth & troubleshooting logs. Used Flask for backend, React for frontend, and Docker for deployment. Streamlined invoice processing with a user-friendly interface and robust error handling.",
+      technologies: ["Python", "Flask", "Tesseract OCR,React,js"],
+      githubUrl:"https://github.com/ShashankTallam/Invoice_GST"
+      image:"/images/ocr.jpg"
+    }
   ];
 
   return (
