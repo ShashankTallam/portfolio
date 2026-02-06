@@ -5,7 +5,7 @@ import { SiDocker } from 'react-icons/si';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "BOLT – Breaking Obstacles with Lip-reading Technology (Ongoing)",
+      title: "BOLT – Breaking Obstacles with Lip-reading Technology ",
       description:
         "Built a real-time lip-reading system using Python, OpenCV, MediaPipe, and deep learning (CNN + RNN/CTC), with a Tkinter-based GUI. Applied NLP for grammar correction and enhanced readability. Integrated data augmentation and transfer learning for improved accuracy and future multilingual support.",
       technologies: ["Python", "OpenCV", "Deep Learning", "MediaPipe"],
